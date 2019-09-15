@@ -41,6 +41,9 @@ public class MyArrayListTest extends MyArrayList {
 
     @Test
     public void get1() {
+        MyArrayList<String> mal = new MyArrayList<String>();
+        mal.add(0, "hello");
+        System.out.println(mal.get(0));
     }
 
     @Test
