@@ -123,13 +123,13 @@ public class SingletonDirectionLinkedListTest extends SingletonDirectionLinkedLi
 
         singletonDirectionLinkedList.add("sfsadfasf");
 
-        System.out.println(singletonDirectionLinkedList.pop());
+        System.out.println(singletonDirectionLinkedList.take());
 
-        System.out.println(singletonDirectionLinkedList.pop());
+        System.out.println(singletonDirectionLinkedList.take());
 
-        System.out.println(singletonDirectionLinkedList.pop());
+        System.out.println(singletonDirectionLinkedList.take());
 
-        System.out.println(singletonDirectionLinkedList.pop());
+        System.out.println(singletonDirectionLinkedList.take());
 
     }
 
