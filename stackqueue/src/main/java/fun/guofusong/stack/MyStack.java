@@ -1,6 +1,6 @@
 package fun.guofusong.stack;
 
-public class MyStack <T> {
+public class MyStack<T> {
 
     private static final Integer DEFAULT_CAPACITY = 8;
 
@@ -17,7 +17,7 @@ public class MyStack <T> {
         arr = new Object[size];
     }
 
-    public MyStack (int size) {
+    public MyStack(int size) {
         this.size = size;
         arr = new Object[size];
 
