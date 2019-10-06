@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="linetable" />
+        <module name="stackqueue" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

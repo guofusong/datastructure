@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc82aa21-5e5e-4df2-8e6f-ce83c80c0151" name="Default Changelist" comment="一、完善测试类。">
-      <change afterPath="$PROJECT_DIR$/linetable/src/main/java/fun/guofusong/linkedlist/SingletonDirectionLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linetable/src/main/java/fun/guofusong/linkedlist/SingletonDirectionNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linetable/src/test/java/fun/guofusong/linkedlist/SingletonDirectionLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stackqueue/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stackqueue/src/main/java/fun/guofusong/stack/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stackqueue/src/test/java/fun/guofusong/stack/MyStackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stackqueue/stackqueue.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springcloud/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springcloud/.idea/dictionaries/guofusong.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springcloud/.idea/encodings.xml" afterDir="false" />
@@ -51,9 +52,10 @@
       <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-netflix-eureka/springcloud-netflix-eureka.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-netflix-eureka/src/main/java/com/hijklmn/springcloud/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linetable/target/test-classes/fun/guofusong/linetable/MyArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/linetable/target/test-classes/fun/guofusong/linetable/MyArrayListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/.classpath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/.project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
@@ -539,6 +541,7 @@
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/linetable/target/" />
+    <ignored path="$PROJECT_DIR$/stackqueue/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -562,14 +565,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linetable/src/main/java/fun/guofusong/linkedlist/SingletonDirectionNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="139">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#174#175#0" expanded="true" />
                 <element signature="e#203#204#0" expanded="true" />
                 <element signature="e#247#248#0" expanded="true" />
                 <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
                 <element signature="e#357#358#0" expanded="true" />
                 <element signature="e#413#414#0" expanded="true" />
                 <element signature="e#445#446#0" expanded="true" />
@@ -581,8 +583,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linetable/src/main/java/fun/guofusong/linkedlist/SingletonDirectionLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="181" column="9" lean-forward="true" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
+            <state relative-caret-position="-468">
+              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
               <folding>
                 <element signature="e#177#178#0" expanded="true" />
                 <element signature="e#198#199#0" expanded="true" />
@@ -591,11 +593,79 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linetable/src/test/java/fun/guofusong/linkedlist/SingletonDirectionLinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="131" column="63" selection-start-line="131" selection-start-column="63" selection-end-line="131" selection-end-column="63" />
+            <state relative-caret-position="70">
+              <caret line="121" column="53" selection-start-line="121" selection-start-column="53" selection-end-line="121" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linetable/src/main/java/fun/guofusong/stack/MyStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding>
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linetable/src/test/java/fun/guofusong/stack/MyStackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stackqueue/src/test/java/fun/guofusong/stack/MyStackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linetable/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="13" selection-start-line="13" selection-end-line="21" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stackqueue/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stackqueue/src/main/java/fun/guofusong/stack/MyStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -634,6 +704,11 @@
         <option value="$PROJECT_DIR$/linetable/src/main/java/fun/guofusong/linkedlist/SingletonDirectionNode.java" />
         <option value="$PROJECT_DIR$/linetable/src/main/java/fun/guofusong/linkedlist/SingletonDirectionLinkedList.java" />
         <option value="$PROJECT_DIR$/linetable/src/test/java/fun/guofusong/linkedlist/SingletonDirectionLinkedListTest.java" />
+        <option value="$PROJECT_DIR$/linetable/src/main/java/fun/guofusong/stack/MyStack.java" />
+        <option value="$PROJECT_DIR$/linetable/src/test/java/fun/guofusong/stack/MyStackTest.java" />
+        <option value="$PROJECT_DIR$/stackqueue/src/main/java/fun/guofusong/stack/MyStack.java" />
+        <option value="$PROJECT_DIR$/stackqueue/src/test/java/fun/guofusong/stack/MyStackTest.java" />
+        <option value="$PROJECT_DIR$/stackqueue/pom.xml" />
       </list>
     </option>
   </component>
@@ -740,7 +815,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="guofusong" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
@@ -774,30 +849,49 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="guofusong" type="462c0819:PsiDirectoryNode" />
-              <item name="linetable" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linetable" type="462c0819:PsiDirectoryNode" />
+              <item name="stackqueue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="stackqueue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="stackqueue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="stackqueue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="stackqueue" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="guofusong" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linetable" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linetable" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="stackqueue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -811,21 +905,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="fun.guofusong.linkedlist.SingletonDirectionLinkedList" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="fun.guofusong.stack.MyStack" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/linetable/src/main/java/fun/guofusong/linetable" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="fun.guofusong.stack" />
       <recent name="fun.guofusong.linkedlist" />
       <recent name="fun.guofusong.linetable" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fun.guofusong.stack" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="fun.guofusong.stack.MyStack" />
       <recent name="fun.guofusong.linkedlist.SingletonDirectionLinkedList" />
       <recent name="fun.guofusong.linetable.MyArrayList" />
     </key>
@@ -845,82 +944,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SingletonDirectionLinkedListTest.take1">
-    <configuration name="SingletonDirectionLinkedListTest.get1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyStackTest.testPop (1)">
+    <configuration name="MyStackTest.getTop1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linetable" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fun.guofusong.linkedlist.*" />
+          <option name="PATTERN" value="fun.guofusong.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fun.guofusong.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="fun.guofusong.linkedlist.SingletonDirectionLinkedListTest" />
-      <option name="METHOD_NAME" value="get1" />
+      <option name="PACKAGE_NAME" value="fun.guofusong.stack" />
+      <option name="MAIN_CLASS_NAME" value="fun.guofusong.stack.MyStackTest" />
+      <option name="METHOD_NAME" value="getTop1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonDirectionLinkedListTest.pop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linetable" />
+    <configuration name="MyStackTest.initStack1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stackqueue" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fun.guofusong.linkedlist.*" />
+          <option name="PATTERN" value="fun.guofusong.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fun.guofusong.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="fun.guofusong.linkedlist.SingletonDirectionLinkedListTest" />
-      <option name="METHOD_NAME" value="pop" />
+      <option name="PACKAGE_NAME" value="fun.guofusong.stack" />
+      <option name="MAIN_CLASS_NAME" value="fun.guofusong.stack.MyStackTest" />
+      <option name="METHOD_NAME" value="initStack1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonDirectionLinkedListTest.pop1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyStackTest.pop1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linetable" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fun.guofusong.linkedlist.*" />
+          <option name="PATTERN" value="fun.guofusong.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fun.guofusong.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="fun.guofusong.linkedlist.SingletonDirectionLinkedListTest" />
+      <option name="PACKAGE_NAME" value="fun.guofusong.stack" />
+      <option name="MAIN_CLASS_NAME" value="fun.guofusong.stack.MyStackTest" />
       <option name="METHOD_NAME" value="pop1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonDirectionLinkedListTest.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linetable" />
+    <configuration name="MyStackTest.testPop (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stackqueue" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fun.guofusong.linkedlist.*" />
+          <option name="PATTERN" value="fun.guofusong.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fun.guofusong.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="fun.guofusong.linkedlist.SingletonDirectionLinkedListTest" />
-      <option name="METHOD_NAME" value="remove" />
+      <option name="PACKAGE_NAME" value="fun.guofusong.stack" />
+      <option name="MAIN_CLASS_NAME" value="fun.guofusong.stack.MyStackTest" />
+      <option name="METHOD_NAME" value="testPop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonDirectionLinkedListTest.take1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyStackTest.testPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linetable" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fun.guofusong.linkedlist.*" />
+          <option name="PATTERN" value="fun.guofusong.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fun.guofusong.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="fun.guofusong.linkedlist.SingletonDirectionLinkedListTest" />
-      <option name="METHOD_NAME" value="take1" />
+      <option name="PACKAGE_NAME" value="fun.guofusong.stack" />
+      <option name="MAIN_CLASS_NAME" value="fun.guofusong.stack.MyStackTest" />
+      <option name="METHOD_NAME" value="testPop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -928,11 +1027,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SingletonDirectionLinkedListTest.take1" />
-        <item itemvalue="JUnit.SingletonDirectionLinkedListTest.pop1" />
-        <item itemvalue="JUnit.SingletonDirectionLinkedListTest.pop" />
-        <item itemvalue="JUnit.SingletonDirectionLinkedListTest.remove" />
-        <item itemvalue="JUnit.SingletonDirectionLinkedListTest.get1" />
+        <item itemvalue="JUnit.MyStackTest.testPop (1)" />
+        <item itemvalue="JUnit.MyStackTest.initStack1" />
+        <item itemvalue="JUnit.MyStackTest.testPop" />
+        <item itemvalue="JUnit.MyStackTest.getTop1" />
+        <item itemvalue="JUnit.MyStackTest.pop1" />
       </list>
     </recent_temporary>
   </component>
@@ -950,7 +1049,7 @@
       <workItem from="1568537186612" duration="736000" />
       <workItem from="1568538330915" duration="931000" />
       <workItem from="1569050963774" duration="2398000" />
-      <workItem from="1569638967280" duration="9526000" />
+      <workItem from="1569638967280" duration="13281000" />
     </task>
     <task id="LOCAL-00001" summary="一、完善测试类。">
       <created>1568538510906</created>
@@ -959,49 +1058,70 @@
       <option name="project" value="LOCAL" />
       <updated>1568538510906</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="一、添加单向链表和测试类。">
+      <created>1569664701141</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569664701141</updated>
+    </task>
+    <task id="LOCAL-00003" summary="一、修改单链表测试类。">
+      <created>1569664779697</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569664779697</updated>
+    </task>
+    <task id="LOCAL-00004" summary="一、添加栈和测试类。">
+      <created>1570286320685</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570286320685</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SingletonDirectionLinkedListTest_remove - 2019.09.28 at 17h 43m 28s.xml">
-      <configuration name="SingletonDirectionLinkedListTest.remove" configurationId="JUnit" />
+    <history-entry file="MyStackTest_stackEmpty1 - 2019.10.05 at 22h 30m 11s.xml">
+      <configuration name="MyStackTest.stackEmpty1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonDirectionLinkedListTest_remove - 2019.09.28 at 17h 43m 41s.xml">
-      <configuration name="SingletonDirectionLinkedListTest.remove" configurationId="JUnit" />
+    <history-entry file="MyStackTest_stackFull1 - 2019.10.05 at 22h 31m 04s.xml">
+      <configuration name="MyStackTest.stackFull1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonDirectionLinkedListTest_remove - 2019.09.28 at 17h 44m 09s.xml">
-      <configuration name="SingletonDirectionLinkedListTest.remove" configurationId="JUnit" />
+    <history-entry file="MyStackTest_push1 - 2019.10.05 at 22h 31m 35s.xml">
+      <configuration name="MyStackTest.push1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonDirectionLinkedListTest_remove - 2019.09.28 at 17h 45m 01s.xml">
-      <configuration name="SingletonDirectionLinkedListTest.remove" configurationId="JUnit" />
+    <history-entry file="MyStackTest_pop1 - 2019.10.05 at 22h 32m 11s.xml">
+      <configuration name="MyStackTest.pop1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonDirectionLinkedListTest_remove - 2019.09.28 at 17h 45m 17s.xml">
-      <configuration name="SingletonDirectionLinkedListTest.remove" configurationId="JUnit" />
+    <history-entry file="MyStackTest_pop1 - 2019.10.05 at 22h 32m 29s.xml">
+      <configuration name="MyStackTest.pop1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonDirectionLinkedListTest_remove - 2019.09.28 at 17h 45m 47s.xml">
-      <configuration name="SingletonDirectionLinkedListTest.remove" configurationId="JUnit" />
+    <history-entry file="MyStackTest_getTop1 - 2019.10.05 at 22h 32m 48s.xml">
+      <configuration name="MyStackTest.getTop1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonDirectionLinkedListTest_remove - 2019.09.28 at 17h 46m 02s.xml">
-      <configuration name="SingletonDirectionLinkedListTest.remove" configurationId="JUnit" />
+    <history-entry file="MyStackTest_testPop - 2019.10.05 at 22h 35m 46s.xml">
+      <configuration name="MyStackTest.testPop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonDirectionLinkedListTest_pop1 - 2019.09.28 at 17h 53m 36s.xml">
-      <configuration name="SingletonDirectionLinkedListTest.pop1" configurationId="JUnit" />
+    <history-entry file="MyStackTest_testPop - 2019.10.05 at 22h 36m 49s.xml">
+      <configuration name="MyStackTest.testPop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonDirectionLinkedListTest_pop1 - 2019.09.28 at 17h 54m 02s.xml">
-      <configuration name="SingletonDirectionLinkedListTest.pop1" configurationId="JUnit" />
+    <history-entry file="MyStackTest_testPop - 2019.10.05 at 22h 37m 31s.xml">
+      <configuration name="MyStackTest.testPop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonDirectionLinkedListTest_pop1 - 2019.09.28 at 17h 54m 19s.xml">
-      <configuration name="SingletonDirectionLinkedListTest.pop1" configurationId="JUnit" />
+    <history-entry file="MyStackTest_testPop - 2019.10.05 at 22h 37m 43s.xml">
+      <configuration name="MyStackTest.testPop" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14385000" />
+    <option name="totallyTimeSpent" value="18140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22818312" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22818312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1010,7 +1130,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36712328" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41643837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1020,7 +1140,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32876712" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32771084" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1032,7 +1152,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22818312" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22818312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1041,7 +1161,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36712328" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36712328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1068,7 +1188,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="一、完善测试类。" />
-    <option name="LAST_COMMIT_MESSAGE" value="一、完善测试类。" />
+    <MESSAGE value="一、添加单向链表和测试类。" />
+    <MESSAGE value="一、修改单链表测试类。" />
+    <MESSAGE value="一、添加栈和测试类。" />
+    <option name="LAST_COMMIT_MESSAGE" value="一、添加栈和测试类。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1094,13 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linetable/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1131,14 +1247,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linetable/src/main/java/fun/guofusong/linkedlist/SingletonDirectionNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="139">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#174#175#0" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
             <element signature="e#247#248#0" expanded="true" />
             <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
             <element signature="e#413#414#0" expanded="true" />
             <element signature="e#445#446#0" expanded="true" />
@@ -1148,8 +1263,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linetable/src/main/java/fun/guofusong/linkedlist/SingletonDirectionLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="181" column="9" lean-forward="true" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
+        <state relative-caret-position="-468">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
           <folding>
             <element signature="e#177#178#0" expanded="true" />
             <element signature="e#198#199#0" expanded="true" />
@@ -1159,8 +1274,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linetable/src/test/java/fun/guofusong/linkedlist/SingletonDirectionLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="131" column="63" selection-start-line="131" selection-start-column="63" selection-end-line="131" selection-end-column="63" />
+        <state relative-caret-position="70">
+          <caret line="121" column="53" selection-start-line="121" selection-start-column="53" selection-end-line="121" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1712">
+          <caret line="126" column="34" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linetable/src/main/java/fun/guofusong/stack/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stackqueue/src/main/java/fun/guofusong/stack/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linetable/src/test/java/fun/guofusong/stack/MyStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stackqueue/src/test/java/fun/guofusong/stack/MyStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linetable/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" selection-start-line="13" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stackqueue/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1225,7 +1407,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>linetable</last-edited>
+          <last-edited>stackqueue</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
