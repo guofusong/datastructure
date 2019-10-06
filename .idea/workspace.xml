@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc82aa21-5e5e-4df2-8e6f-ce83c80c0151" name="Default Changelist" comment="一、完善测试类。">
-      <change afterPath="$PROJECT_DIR$/stackqueue/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackqueue/src/main/java/fun/guofusong/stack/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackqueue/src/test/java/fun/guofusong/stack/MyStackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackqueue/stackqueue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stackqueue/src/main/java/fun/guofusong/stack/MyLinkStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stackqueue/src/test/java/fun/guofusong/stack/MyLinkStackTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springcloud/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springcloud/.idea/dictionaries/guofusong.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springcloud/.idea/encodings.xml" afterDir="false" />
@@ -52,10 +50,7 @@
       <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-netflix-eureka/springcloud-netflix-eureka.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springcloud/springcloud-netflix-eureka/src/main/java/com/hijklmn/springcloud/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linetable/target/test-classes/fun/guofusong/linetable/MyArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/linetable/target/test-classes/fun/guofusong/linetable/MyArrayListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/.classpath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/.project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springcloud-biz-order/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
@@ -548,6 +543,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -603,42 +612,47 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linetable/src/main/java/fun/guofusong/stack/MyStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding>
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linetable/src/test/java/fun/guofusong/stack/MyStackTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stackqueue/src/test/java/fun/guofusong/stack/MyStackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="371">
+              <caret line="115" column="42" lean-forward="true" selection-start-line="115" selection-start-column="42" selection-end-line="115" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stackqueue/src/main/java/fun/guofusong/stack/MyLinkStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stackqueue/src/test/java/fun/guofusong/stack/MyLinkStackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="75" column="46" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -652,11 +666,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stackqueue/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="217">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -665,7 +679,7 @@
         <entry file="file://$PROJECT_DIR$/stackqueue/src/main/java/fun/guofusong/stack/MyStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -709,6 +723,8 @@
         <option value="$PROJECT_DIR$/stackqueue/src/main/java/fun/guofusong/stack/MyStack.java" />
         <option value="$PROJECT_DIR$/stackqueue/src/test/java/fun/guofusong/stack/MyStackTest.java" />
         <option value="$PROJECT_DIR$/stackqueue/pom.xml" />
+        <option value="$PROJECT_DIR$/stackqueue/src/main/java/fun/guofusong/stack/MyLinkStack.java" />
+        <option value="$PROJECT_DIR$/stackqueue/src/test/java/fun/guofusong/stack/MyLinkStackTest.java" />
       </list>
     </option>
   </component>
@@ -743,7 +759,20 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="datastructure" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="linetable" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="linetable" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stackqueue" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stackqueue" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -775,85 +804,6 @@
             <path>
               <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linetable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linetable" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linetable" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linetable" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linetable" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="guofusong" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linetable" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="guofusong" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linetable" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linetable" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linetable" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="guofusong" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linetable" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="guofusong" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="stackqueue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -874,14 +824,7 @@
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="stackqueue" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="stackqueue" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -889,7 +832,7 @@
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="stackqueue" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -905,14 +848,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="fun.guofusong.stack.MyStack" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="fun.guofusong.stack.MyLinkStack" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/linetable/src/main/java/fun/guofusong/linetable" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -924,6 +868,7 @@
       <recent name="fun.guofusong.stack" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="fun.guofusong.stack.MyLinkStack" />
       <recent name="fun.guofusong.stack.MyStack" />
       <recent name="fun.guofusong.linkedlist.SingletonDirectionLinkedList" />
       <recent name="fun.guofusong.linetable.MyArrayList" />
@@ -944,9 +889,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyStackTest.testPop (1)">
-    <configuration name="MyStackTest.getTop1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linetable" />
+  <component name="RunManager" selected="JUnit.MyLinkStackTest.getTop1">
+    <configuration name="MyLinkStackTest.getTop1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stackqueue" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fun.guofusong.stack.*" />
@@ -954,14 +899,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="fun.guofusong.stack" />
-      <option name="MAIN_CLASS_NAME" value="fun.guofusong.stack.MyStackTest" />
+      <option name="MAIN_CLASS_NAME" value="fun.guofusong.stack.MyLinkStackTest" />
       <option name="METHOD_NAME" value="getTop1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStackTest.initStack1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyLinkStackTest.initStack1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stackqueue" />
       <extension name="coverage">
         <pattern>
@@ -970,30 +915,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="fun.guofusong.stack" />
-      <option name="MAIN_CLASS_NAME" value="fun.guofusong.stack.MyStackTest" />
+      <option name="MAIN_CLASS_NAME" value="fun.guofusong.stack.MyLinkStackTest" />
       <option name="METHOD_NAME" value="initStack1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStackTest.pop1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linetable" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fun.guofusong.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fun.guofusong.stack" />
-      <option name="MAIN_CLASS_NAME" value="fun.guofusong.stack.MyStackTest" />
-      <option name="METHOD_NAME" value="pop1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyStackTest.testPop (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyLinkStackTest.pop1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stackqueue" />
       <extension name="coverage">
         <pattern>
@@ -1002,15 +931,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="fun.guofusong.stack" />
-      <option name="MAIN_CLASS_NAME" value="fun.guofusong.stack.MyStackTest" />
-      <option name="METHOD_NAME" value="testPop" />
+      <option name="MAIN_CLASS_NAME" value="fun.guofusong.stack.MyLinkStackTest" />
+      <option name="METHOD_NAME" value="pop1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStackTest.testPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="linetable" />
+    <configuration name="MyLinkStackTest.push1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stackqueue" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fun.guofusong.stack.*" />
@@ -1018,8 +947,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="fun.guofusong.stack" />
-      <option name="MAIN_CLASS_NAME" value="fun.guofusong.stack.MyStackTest" />
-      <option name="METHOD_NAME" value="testPop" />
+      <option name="MAIN_CLASS_NAME" value="fun.guofusong.stack.MyLinkStackTest" />
+      <option name="METHOD_NAME" value="push1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkStackTest.stackEmpty1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stackqueue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fun.guofusong.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fun.guofusong.stack" />
+      <option name="MAIN_CLASS_NAME" value="fun.guofusong.stack.MyLinkStackTest" />
+      <option name="METHOD_NAME" value="stackEmpty1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1027,11 +972,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyStackTest.testPop (1)" />
-        <item itemvalue="JUnit.MyStackTest.initStack1" />
-        <item itemvalue="JUnit.MyStackTest.testPop" />
-        <item itemvalue="JUnit.MyStackTest.getTop1" />
-        <item itemvalue="JUnit.MyStackTest.pop1" />
+        <item itemvalue="JUnit.MyLinkStackTest.getTop1" />
+        <item itemvalue="JUnit.MyLinkStackTest.pop1" />
+        <item itemvalue="JUnit.MyLinkStackTest.push1" />
+        <item itemvalue="JUnit.MyLinkStackTest.stackEmpty1" />
+        <item itemvalue="JUnit.MyLinkStackTest.initStack1" />
       </list>
     </recent_temporary>
   </component>
@@ -1049,7 +994,7 @@
       <workItem from="1568537186612" duration="736000" />
       <workItem from="1568538330915" duration="931000" />
       <workItem from="1569050963774" duration="2398000" />
-      <workItem from="1569638967280" duration="13281000" />
+      <workItem from="1569638967280" duration="15273000" />
     </task>
     <task id="LOCAL-00001" summary="一、完善测试类。">
       <created>1568538510906</created>
@@ -1079,48 +1024,93 @@
       <option name="project" value="LOCAL" />
       <updated>1570286320685</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="一、添加stack queue和测试类。">
+      <created>1570325191184</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570325191184</updated>
+    </task>
+    <task id="LOCAL-00006" summary="一、完善pom文件。">
+      <created>1570325262144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570325262144</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyStackTest_stackEmpty1 - 2019.10.05 at 22h 30m 11s.xml">
-      <configuration name="MyStackTest.stackEmpty1" configurationId="JUnit" />
+    <history-entry file="MyStackTest_initStack1 - 2019.10.06 at 09h 23m 56s.xml">
+      <configuration name="MyStackTest.initStack1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStackTest_stackFull1 - 2019.10.05 at 22h 31m 04s.xml">
-      <configuration name="MyStackTest.stackFull1" configurationId="JUnit" />
+    <history-entry file="MyStackTest_testPop_(1) - 2019.10.06 at 09h 25m 00s.xml">
+      <configuration name="MyStackTest.testPop (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStackTest_push1 - 2019.10.05 at 22h 31m 35s.xml">
-      <configuration name="MyStackTest.push1" configurationId="JUnit" />
+    <history-entry file="MyStackTest_testPop_(1) - 2019.10.06 at 10h 35m 11s.xml">
+      <configuration name="MyStackTest.testPop (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStackTest_pop1 - 2019.10.05 at 22h 32m 11s.xml">
-      <configuration name="MyStackTest.pop1" configurationId="JUnit" />
+    <history-entry file="MyLinkStackTest_initStack1 - 2019.10.06 at 10h 47m 28s.xml">
+      <configuration name="MyLinkStackTest.initStack1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStackTest_pop1 - 2019.10.05 at 22h 32m 29s.xml">
-      <configuration name="MyStackTest.pop1" configurationId="JUnit" />
+    <history-entry file="MyLinkStackTest_stackEmpty1 - 2019.10.06 at 10h 48m 09s.xml">
+      <configuration name="MyLinkStackTest.stackEmpty1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStackTest_getTop1 - 2019.10.05 at 22h 32m 48s.xml">
-      <configuration name="MyStackTest.getTop1" configurationId="JUnit" />
+    <history-entry file="MyLinkStackTest_push1 - 2019.10.06 at 10h 48m 51s.xml">
+      <configuration name="MyLinkStackTest.push1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStackTest_testPop - 2019.10.05 at 22h 35m 46s.xml">
-      <configuration name="MyStackTest.testPop" configurationId="JUnit" />
+    <history-entry file="MyLinkStackTest_pop1 - 2019.10.06 at 10h 49m 31s.xml">
+      <configuration name="MyLinkStackTest.pop1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStackTest_testPop - 2019.10.05 at 22h 36m 49s.xml">
-      <configuration name="MyStackTest.testPop" configurationId="JUnit" />
+    <history-entry file="MyLinkStackTest_pop1 - 2019.10.06 at 10h 49m 57s.xml">
+      <configuration name="MyLinkStackTest.pop1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStackTest_testPop - 2019.10.05 at 22h 37m 31s.xml">
-      <configuration name="MyStackTest.testPop" configurationId="JUnit" />
+    <history-entry file="MyLinkStackTest_getTop1 - 2019.10.06 at 10h 50m 31s.xml">
+      <configuration name="MyLinkStackTest.getTop1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyStackTest_testPop - 2019.10.05 at 22h 37m 43s.xml">
-      <configuration name="MyStackTest.testPop" configurationId="JUnit" />
+    <history-entry file="MyLinkStackTest_getTop1 - 2019.10.06 at 10h 50m 56s.xml">
+      <configuration name="MyLinkStackTest.getTop1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18140000" />
+    <option name="totallyTimeSpent" value="20132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22818312" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41643837" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32739726" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22818312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -1140,43 +1130,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32771084" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32739726" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.3297568" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22818312" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36712328" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32876712" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" weight="0.3297568" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -1191,7 +1150,9 @@
     <MESSAGE value="一、添加单向链表和测试类。" />
     <MESSAGE value="一、修改单链表测试类。" />
     <MESSAGE value="一、添加栈和测试类。" />
-    <option name="LAST_COMMIT_MESSAGE" value="一、添加栈和测试类。" />
+    <MESSAGE value="一、添加stack queue和测试类。" />
+    <MESSAGE value="一、完善pom文件。" />
+    <option name="LAST_COMMIT_MESSAGE" value="一、完善pom文件。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1210,6 +1171,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/linetable/src/main/java/fun/guofusong/linetable/MyArrayListTest.java" />
@@ -1305,27 +1270,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stackqueue/src/main/java/fun/guofusong/stack/MyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linetable/src/test/java/fun/guofusong/stack/MyStackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stackqueue/src/test/java/fun/guofusong/stack/MyStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1341,8 +1289,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stackqueue/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="217">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stackqueue/src/main/java/fun/guofusong/stack/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stackqueue/src/test/java/fun/guofusong/stack/MyStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="115" column="42" lean-forward="true" selection-start-line="115" selection-start-column="42" selection-end-line="115" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stackqueue/src/main/java/fun/guofusong/stack/MyLinkStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stackqueue/src/test/java/fun/guofusong/stack/MyLinkStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="75" column="46" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
         </state>
       </provider>
     </entry>
